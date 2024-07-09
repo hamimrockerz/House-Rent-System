@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+#login-section, #signup-section {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.text-center button {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-center button:hover {
+  text-decoration: underline;
+}
